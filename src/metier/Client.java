@@ -10,7 +10,6 @@ public class Client
 	 * @param nom le nom du client. 
 	 */
 	private String nom;
-	private Facture facture;
 	
 	public Client(String nom)
 	{
@@ -45,7 +44,8 @@ public class Client
 	
 	public Facture createFacture(int montant)
 	{
-		this.facture = createFacture(montant);
+		ArrayList<Facture> facture = new ArrayList<>();
+		facture.add(montant);
 		return facture;
 		
 	}
@@ -55,10 +55,9 @@ public class Client
 	 * @return une copie de la liste des factures du client.
 	 */
 
-	@SuppressWarnings("unchecked")
 	public List<Facture> getFactures()
 	{
-		return (List<Facture>) facture;
+		return null;
 	}
 	
 	/**
