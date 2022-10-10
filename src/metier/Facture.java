@@ -3,9 +3,14 @@ package metier;
 import java.time.LocalDate;
 
 public class Facture
+
 {
+	private Client client;
+	private int montant;
+	
 	public Facture(Client client, int montant) {
-		// TODO Auto-generated constructor stub
+		this.client = client;
+		this.montant = montant;
 	}
 
 
@@ -16,7 +21,7 @@ public class Facture
 	
 	public Client getClient()
 	{
-		return null;
+		return client;
 	}
 
 	/**
@@ -26,7 +31,7 @@ public class Facture
 	
 	public int getMontant()
 	{
-		return 0;
+		return montant;
 	}
 
 	/**
