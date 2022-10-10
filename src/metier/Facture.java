@@ -4,6 +4,11 @@ import java.time.LocalDate;
 
 public class Facture
 {
+	public Facture(Client client, int montant) {
+		// TODO Auto-generated constructor stub
+	}
+
+
 	/**
 	 * Retourne le client à qui est adressée la facture..
 	 * @return le client.

@@ -42,9 +42,9 @@ public class Client
 	 * @return la facture créée.
 	 */
 	
-	public ArrayList<Facture> createFacture(int montant)
+	public Facture createFacture(int montant)
 	{
-		ArrayList<Facture> facture = new ArrayList<Facture>(montant);
+		Facture facture = new Facture(this, montant);
 		return facture;
 		
 	}
