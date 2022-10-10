@@ -45,7 +45,6 @@ public class Client
 	public Facture createFacture(int montant)
 	{
 		ArrayList<Facture> facture = new ArrayList<>();
-		facture.add(montant);
 		return facture;
 		
 	}
