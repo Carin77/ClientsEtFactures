@@ -42,10 +42,10 @@ public class Client
 	 * @return la facture créée.
 	 */
 	
-	public Facture createFacture(int montant)
+	public ArrayList<Facture> createFacture(Facture montant)
 	{
 		ArrayList<Facture> facture = new ArrayList<Facture>();
-		facture.add(createFacture(montant));
+		facture.add(montant);
 		return facture;
 		
 	}
