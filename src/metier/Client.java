@@ -55,9 +55,10 @@ public class Client
 	 * @return une copie de la liste des factures du client.
 	 */
 
+	@SuppressWarnings("unchecked")
 	public List<Facture> getFactures()
 	{
-		return null;
+		return (List<Facture>) facture;
 	}
 	
 	/**
