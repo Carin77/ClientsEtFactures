@@ -4,7 +4,6 @@ import java.time.LocalDate;
 public class Facture
 
 {
-	LocalDate date;
 	private Client client;
 	private int montant;
 	
@@ -51,7 +50,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return date;
+		return null;
 	}
 
 	/**
