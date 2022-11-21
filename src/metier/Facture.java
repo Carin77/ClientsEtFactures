@@ -41,7 +41,7 @@ public class Facture
 	
 	public boolean estReglee()
 	{
-		return true;
+		return false;
 	}
 
 	/**
