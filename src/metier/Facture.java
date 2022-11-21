@@ -13,7 +13,7 @@ public class Facture
 		this.montant = montant;
 	}
 	
-	public Facture (LocalDate date){
+	public void setDate (LocalDate date){
 		this.date = date;
 	}
 
