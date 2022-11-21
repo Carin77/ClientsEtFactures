@@ -44,10 +44,6 @@ public class Facture
 		return false;
 	}
 	
-	public void SetDate(LocalDate date) {
-		this.date = date;
-	}
-
 	/**
 	 * Retourne la date de la facture.
 	 * @return la date de la facture.
