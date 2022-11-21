@@ -51,7 +51,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return getDate();
+		return null;
 	}
 
 	/**
@@ -60,6 +60,7 @@ public class Facture
 	
 	public void delete()
 	{
+		this.client = null;
 	}
 	
 	/**
