@@ -60,7 +60,7 @@ public class Facture
 	
 	public void delete()
 	{
-		this.client = null;
+		client = null;
 	}
 	
 	/**
