@@ -67,6 +67,7 @@ public class Client
 	
 	public int sommeMontants()
 	{
+		List<Facture> var = getFactures();
 		return 0;
 	}
 
@@ -99,7 +100,8 @@ public class Client
 	 */
 	public static List<Client> tous()
 	{
-		return null;
+		List<Client> client = new List<Client>();
+		return client;
 	}
 	
 	/**
