@@ -6,10 +6,15 @@ public class Facture
 {
 	private Client client;
 	private int montant;
+	LocalDate date = LocalDate.of(montant, montant, montant);
 	
 	public Facture(Client client, int montant) {
 		this.client = client;
 		this.montant = montant;
+	}
+	
+	public Facture (LocalDate date){
+		this.date = date;
 	}
 
 
@@ -50,7 +55,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return LocalDate.of(montant, montant, montant);
+		return date;
 	}
 
 	/**
