@@ -59,7 +59,9 @@ public class Facture
 	
 	public void delete()
 	{
+		montant = 0;
 		client = null;
+
 	}
 	
 	/**
