@@ -56,7 +56,8 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		return null;
+		ArrayList<Facture> facture = new ArrayList<Facture>();
+		return facture;
 	}
 	
 	/**
