@@ -1,10 +1,10 @@
 package metier;
-
 import java.time.LocalDate;
 
 public class Facture
 
 {
+	LocalDate date;
 	private Client client;
 	private int montant;
 	
@@ -43,6 +43,10 @@ public class Facture
 	{
 		return false;
 	}
+	
+	public void SetDate(LocalDate date) {
+		this.date = date;
+	}
 
 	/**
 	 * Retourne la date de la facture.
@@ -51,7 +55,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return null;
+		return date;
 	}
 
 	/**
