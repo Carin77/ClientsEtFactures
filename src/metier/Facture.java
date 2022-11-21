@@ -50,7 +50,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return null;
+		return LocalDate.of(montant, montant, montant);
 	}
 
 	/**
